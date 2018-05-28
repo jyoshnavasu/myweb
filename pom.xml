@@ -55,13 +55,15 @@
 	
 	<distributionManagement>
 		 <snapshotRepository>
-		    <id>nexus</id>
-		    <url>http://34.217.174.36:8081/nexus/content/repositories/snapshots/</url>
+		    <id>deployment</id>
+			 <name>snapshot release</name>
+		    <url>http://18.217.29.173:8081/nexus/content/repositories/snapshots/</url>
 		 </snapshotRepository>
 		
 		<repository>
-		    <id>nexus</id>
-		    <url>http://34.217.174.36:8081/nexus/content/repositories/releases/</url>
+		    <id>deployment</id>
+			<name>internal release</name>
+		    <url>http://18.217.29.173:8081/nexus/content/repositories/releases/</url>
 		</repository>
   	</distributionManagement>
 	
